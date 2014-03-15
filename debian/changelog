@@ -1,0 +1,5 @@
+etcd (0.3.0~20140315) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Thomas Clavier <tclavier@azae.net>  Sat, 15 Mar 2014 15:55:05 +0100

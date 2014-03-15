@@ -1,0 +1,20 @@
+Source: etcd
+Section: unknown
+Priority: optional
+Maintainer: Thomas Clavier <tclavier@azae.net>
+Build-Depends: debhelper (>= 8.0.0), golang-go, dh-golang
+Standards-Version: 3.9.4
+Homepage: https://github.com/coreos/etcd
+#Vcs-Git: git://git.debian.org/collab-maint/etcd.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/etcd.git;a=summary
+
+Package: etcd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+#Package: etcd-doc
+#Architecture: all
+#Description: documentation for etcd
+# <insert long description, indented with spaces>
